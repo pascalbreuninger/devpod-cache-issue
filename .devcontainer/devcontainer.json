@@ -1,0 +1,11 @@
+{
+  "name": "Debug service",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "main-app",
+  "workspaceFolder": "/root",
+  "shutdownAction": "stopCompose",
+  "features": {
+    "ghcr.io/devcontainers/features/aws-cli:1": {},
+    "ghcr.io/devcontainers/features/node:1": {}
+  }
+}
