@@ -1,5 +1,8 @@
 {
   "name": "Debug service",
+  "build": {
+    "context": ".."
+  },
   "dockerComposeFile": "../docker-compose.yml",
   "service": "main-app",
   "workspaceFolder": "/root",
